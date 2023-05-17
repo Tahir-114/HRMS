@@ -1,0 +1,35 @@
+<!-- SIDEBAR -->
+<section id="sidebar" [ngClass]="status ? 'hide' : ''">
+  <a [routerLink]="['/dashboard']" class="brand">
+    <span class="text"
+      ><img src="assets/logo.png" alt="" class="img-fluid"
+    /></span>
+  </a>
+  <ul class="side-menu top">
+    <li class="active">
+      <a [routerLink]="['/dashboard']">
+        <i class="bx bxs-dashboard"></i>
+        <span class="text">Dashboard</span>
+      </a>
+    </li>
+    <li>
+      <a [routerLink]="['/user']">
+        <i class="bx bxs-shopping-bag-alt"></i>
+        <span class="text">User Management</span>
+      </a>
+    </li>
+    <li>
+      <a [routerLink]="['/Jobs-Resume']">
+        <i class="bx bxs-doughnut-chart"></i>
+        <span class="text">Jobs & Resume</span>
+      </a>
+    </li>
+    <li>
+      <a [routerLink]="['/candidates']">
+        <i class="bx bxs-message-dots"></i>
+        <span class="text">Candidates</span>
+      </a>
+    </li>
+  </ul>
+</section>
+<!-- SIDEBAR -->

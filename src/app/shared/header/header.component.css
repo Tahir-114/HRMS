@@ -1,0 +1,17 @@
+.head {
+  background: #fff;
+  width: 100%;
+  float: left;
+  padding: 40px 30px;
+}
+.head h2 {
+    font-weight: 800;
+    font-size: 56px;
+    font-family: "Abhaya Libre", serif;
+  }
+  .breadcumbs{
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'HrmsFont';
+    color: #000000;
+}

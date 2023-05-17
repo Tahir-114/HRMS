@@ -1,0 +1,26 @@
+{
+  "CreateOrganization": [
+    {
+      "fname": "Tahir",
+      "lname": "Basheer",
+      "email": "tahirbasheer97@gmail.com",
+      "cnum": 3315746170,
+      "cnic": 1233123123,
+      "validadd": "bilal123@gmail.com",
+      "password": "Admin123",
+      "cpassword": "32424343",
+      "id": 1
+    },
+    {
+      "fname": null,
+      "lname": null,
+      "email": null,
+      "cnum": null,
+      "cnic": null,
+      "validadd": "bilal123@gmail.com",
+      "password": "Admin123",
+      "cpassword": null,
+      "id": 2
+    }
+  ]
+}

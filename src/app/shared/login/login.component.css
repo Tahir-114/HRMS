@@ -1,0 +1,46 @@
+.login {
+  background: linear-gradient(180deg, #00a3ff 0%, #1559bf 100%);
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+  margin-top: 15px;
+}
+.home-heading {
+  font-weight: bold;
+  font-size: 72px;
+  font-family: "Abhaya Libre", serif;
+}
+
+.create-now {
+  color: #019ffb;
+  border: none;
+  background: transparent;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  text-decoration: underline;
+}
+input {
+  background: #E8E8E8;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+  width: 100%;
+  padding: 10px 24px;
+  margin: 10px 0;
+}
+.forg-pass{
+    color: #019ffb;
+    border: none;
+    background: transparent;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-decoration: underline;
+    margin-left: 20px;
+    float: right;
+    margin-top: 15px;
+}

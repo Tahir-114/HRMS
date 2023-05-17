@@ -1,0 +1,119 @@
+
+  a {
+    text-decoration: none;
+  }
+  
+  li {
+    list-style: none;
+  }  
+  /* SIDEBAR */
+  #sidebar {
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: #F9F9FF;
+    z-index: 2000;
+    font-family: 'Inter', sans-serif;
+    transition: .3s ease;
+    overflow-x: hidden;
+    scrollbar-width: none;
+  }
+  #sidebar::--webkit-scrollbar {
+    display: none;
+  }
+  #sidebar.hide {
+    width: 60px;
+  }
+  #sidebar .brand {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 50px 14px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    padding-bottom: 20px;
+    box-sizing: content-box;
+  }
+  #sidebar .brand .bx {
+    min-width: 60px;
+    display: flex;
+    justify-content: center;
+  }
+  #sidebar .side-menu {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  #sidebar .side-menu li {
+    height: 68px;
+    background: transparent;
+    padding: 0px;
+  }
+  #sidebar .side-menu li.active {
+    background: #000;
+    position: relative;
+    color: #fff;
+  }
+  #sidebar .side-menu li.active a span{
+    color: #fff;
+  }
+  #sidebar .side-menu li.active a i{
+    color: #fff;
+  }
+  #sidebar .side-menu li.active::before {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: -40px;
+    right: 0;
+    box-shadow: 20px 20px 0 var(--grey);
+    color: #fff;
+    z-index: -1;
+  }
+  #sidebar .side-menu li.active::after {
+    content: '';
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    bottom: -40px;
+    right: 0;
+    box-shadow: 20px -20px 0 var(--grey);
+    z-index: -1;
+    color: #fff;
+  }
+  #sidebar .side-menu li a {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    white-space: nowrap;
+    overflow-x: hidden;
+  }
+  #sidebar.hide .side-menu li a {
+    width: calc(48px - (4px * 2));
+    transition: width .3s ease;
+  }
+  #sidebar .side-menu li a .bx {
+    min-width: calc(60px  - ((4px + 6px) * 2));
+    display: flex;
+    justify-content: center;
+    color: #000;
+    font-size: 20px;
+  }
+  .text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000;
+  }
+  i.bx.bx-menu{
+    font-size: 35px;
+    margin: 25px;
+    cursor: pointer;
+  }
+  /* SIDEBAR */

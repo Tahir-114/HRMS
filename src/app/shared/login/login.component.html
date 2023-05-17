@@ -1,0 +1,25 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-6 mt-5">
+      <a href=""><img src="assets/logo.png" alt="" class="img-fluid" /></a>
+      <h3 class="home-heading mt-5">Login</h3>
+      <p class="home-text">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate
+        libero et velit interdum, ac aliquet odio mattis. Class aptent taciti
+        sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.
+      </p>
+      <form [formGroup]="login">
+        <input type="email" class="form-control" formControlName="email" ><br>
+        <input type="password" class="form-control" formControlName="password">
+      </form>
+      <button (click)="logindata()" class="login btn" [routerLink]="['/dashboard']">Login</button>
+      <button class="forg-pass">forget password</button>
+    </div>
+    <div class="col-md-6 mt-5">
+      <img src="assets/home-image.png" alt="" class="img-fluid" />
+    </div>
+    <div class="col-md-12">
+      <span>don’t have an organization? <button class="create-now" [routerLink]="['/Create-orga']">Create Now</button></span>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,115 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2 p-0">
+      <app-sidenav></app-sidenav>
+    </div>
+    <div class="col-md-10 bg-hrms p-0">
+      <app-header></app-header>
+      <div class="search">
+        <i class="fa fa-search"></i>
+        <input type="text" class="form-control" placeholder="search" />
+      </div>
+      <div class="actions">
+        <button class="filter">Filter</button>
+        <button class="group">Group</button>
+      </div>
+      <table class="table table-borderless">
+        <thead class="table-head">
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Candidate Name</th>
+            <th scope="col">Applied Position</th>
+            <th scope="col">Platform</th>
+            <th scope="col">Shortlist</th>
+            <th scope="col"></th>
+          </tr>
+        </thead>
+        <tbody class="table-content">
+          <tr>
+            <th scope="row">244</th>
+            <td>Morris Jackson</td>
+            <td>morris@email.com</td>
+            <td><span>Human Resource</span><span> Recruiter</span></td>
+            <td></td>
+            <td><i class="bx bxs-droplet"></i></td>
+          
+          </tr>
+          <tr>
+            <th scope="row">302</th>
+            <td>Elizbath Weed</td>
+            <td>elizbath@email.com</td>
+            <td><span>Recruiter</span></td>
+            <td></td>
+            <td><i class="bx bxs-droplet"></i></td>
+           
+          </tr>
+          <tr>
+            <th scope="row">22</th>
+            <td>Tommy</td>
+            <td>tommy@email.com</td>
+            <td><span>Recruiter</span></td>
+            <td></td>
+            <td><i class="bx bxs-droplet"></i></td>
+            
+          </tr>
+          <tr>
+            <th scope="row">44</th>
+            <td>Richard Shaw</td>
+            <td>Shaw@email.com</td>
+            <td><span>Human Resource</span><span> Recruiter</span></td>
+            <td></td>
+            <td><i class="bx bxs-droplet"></i></td>
+         
+          </tr>
+          <tr>
+            <th scope="row">754</th>
+            <td>Richard Shaw</td>
+            <td>Shaw@email.com</td>
+            <td><span> Recruiter</span></td>
+            <td></td>
+            <td><i class="bx bxs-droplet"></i></td>
+          
+          </tr>
+          <tr>
+            <th scope="row">22</th>
+            <td>Richard Shaw</td>
+            <td>lucas@email.com</td>
+            <td><span>Human Resource</span></td>
+            <td></td>
+            <td><i class="bx bxs-droplet"></i></td>
+         
+          </tr>
+          <tr>
+            <th scope="row">90</th>
+            <td>Richard Shaw</td>
+            <td>faari@email.com</td>
+            <td><span>Human Resource</span> <span>Recruiter</span></td>
+            <td></td>
+            <td><i class="bx bxs-droplet"></i></td>
+          
+          </tr>
+          <tr>
+            <th scope="row">244</th>
+            <td>Richard Shaw</td>
+            <td>morris@email.com</td>
+            <td><span>Recruiter</span></td>
+            <td></td>
+            <td><i class="bx bxs-droplet"></i></td>
+           
+          </tr>
+          <tr>
+            <th scope="row">208</th>
+            <td>Richard Shaw</td>
+            <td>Shaw@email.com</td>
+            <td><span>Human Resource</span> <span>Recruiter</span></td>
+            <td></td>
+            <td><i class="bx bxs-droplet"></i></td>
+          
+          </tr>
+        </tbody>
+      </table>
+      <button class="add-role" [routerLink]="['/upload-resume']">Upload Resume</button>
+      <button class="add-role " [routerLink]="['/create-job']">Create Job</button>
+    </div>
+  </div>
+</div>

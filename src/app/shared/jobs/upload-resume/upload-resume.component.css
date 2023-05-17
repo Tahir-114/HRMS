@@ -1,0 +1,36 @@
+.create-box {
+    width: 100%;
+    float: left;
+}
+.inner-box{
+ background: #fff;
+ margin: 100px auto;
+ max-width: 790px;
+ padding: 50px;
+}
+.role-heading{
+    font-weight: 800;
+    font-size: 40px;
+    font-family: "Abhaya Libre", serif;
+}
+input{
+    background: #E8E8E8;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+    width: 100%;
+    padding: 10px 24px;
+    margin: 10px 0;
+    font-family: "Inter", sans-serif;
+}
+.insert-role{
+    background: linear-gradient(180deg, #00a3ff 0%, #1559bf 100%);
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    margin-top: 15px;
+    text-transform: uppercase;
+}

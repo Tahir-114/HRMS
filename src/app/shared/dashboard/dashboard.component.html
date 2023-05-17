@@ -1,0 +1,72 @@
+<!-- SIDEBAR -->
+<section id="sidebar" [ngClass]="status ? 'hide' : ''">
+  <a [routerLink]="['/dashboard']" class="brand">
+    <span class="text"
+      ><img src="assets/logo.png" alt="" class="img-fluid"
+    /></span>
+  </a>
+  <ul class="side-menu top">
+    <li class="active">
+      <a [routerLink]="['/dashboard']">
+        <i class="bx bxs-dashboard"></i>
+        <span class="text">Dashboard</span>
+      </a>
+    </li>
+    <li>
+      <a [routerLink]="['/user']">
+        <i class="bx bxs-shopping-bag-alt"></i>
+        <span class="text">User Management</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class="bx bxs-doughnut-chart"></i>
+        <span class="text">Jobs & Resume</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <i class="bx bxs-message-dots"></i>
+        <span class="text">Candidates</span>
+      </a>
+    </li>
+  </ul>
+</section>
+<!-- SIDEBAR -->
+<!-- CONTENT -->
+<section id="content">
+  <!-- NAVBAR -->
+  <nav class="profile-nav">
+    <i (click)="addToggle()" class="bx bx-menu"></i>
+  </nav>
+  <!-- NAVBAR -->
+
+  <!-- MAIN -->
+  <main>
+    <div class="main-container">
+      <div class="head-title">
+        <div class="left">
+          <h1>Dashboard</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            vulputate<br> libero et velit interdum, ac aliquet odio mattis. Class
+            aptent taciti<br> sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+            vulputate<br> libero et velit interdum, ac aliquet odio mattis. Class
+            aptent taciti<br> sociosqu ad litora torquent per conubia nostra, per
+            inceptos himenaeos.<br> Lorem ipsum dolor sit amet, consectetur
+            adipiscing elit. Nunc vulputate<br> libero et velit interdum, ac aliquet
+            odio mattis. Class aptent taciti<br> sociosqu ad litora torquent per
+            conubia nostra, per inceptos himenaeos.
+          </p>
+          <button>Create Job</button>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- MAIN -->
+</section>
+<!-- CONTENT -->

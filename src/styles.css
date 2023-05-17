@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;500;600;700;800&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@font-face {
+    font-family: 'HrmsFont';
+    src: url('src/assets/Abel-Regular.ttf');
+  }
+.hrm{
+    font-family: 'HrmsFont';
+}
+h3{
+    font-family: 'Inter', sans-serif;
+}
+.home-text {
+  font-weight: 400;
+  font-size: 20px;
+  font-family: "Abhaya Libre", serif;
+}
+.bg-hrms{
+  background-color: #F7F7F7;
+}

@@ -1,0 +1,42 @@
+input {
+    background: #E8E8E8;
+    border: 1px solid #c0c0c0;
+    border-radius: 2px;
+    width: 100%;
+    padding: 10px 24px;
+    margin: 10px 0;
+    font-family: 'Inter';
+  }
+  .add-com-info {
+    background: linear-gradient(180deg, #00a3ff 0%, #1559bf 100%);
+    border-radius: 8px;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: "Inter", sans-serif;
+    margin-top: 15px;
+  }
+  .home-heading {
+    font-weight: bold;
+    font-size: 72px;
+    font-family: "Abhaya Libre", serif;
+  }
+  .info-tabs{
+    padding: 0;
+    margin: 0;
+  }
+  .info-tabs li{
+    font-family: 'Inter';
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 10px 15px;
+    margin:0px 10px ;
+    cursor: pointer;
+    
+  }
+  .active{
+    border-bottom: 4px solid rgba(0, 163, 255, 1);
+  }

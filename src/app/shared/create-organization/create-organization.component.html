@@ -1,0 +1,37 @@
+<div class="container">
+    <div class="row">
+      <div class="col-md-6 mt-5">
+        <a href=""><img src="assets/logo.png" alt="" class="img-fluid" /></a>
+        <h3 class="home-heading mt-5">Create Organization</h3>
+        <ul class="info-tabs">
+          <li [ngClass]=" step == 1 ? 'active' : '' "  (click)="openPersonalInfoTab()">Personal Information</li>
+          <li [ngClass]=" step == 2 ? 'active' : '' "  (click)="openCompanyInfoTab()">Company Information</li>
+        </ul>
+        <form [formGroup]="MakeOrganization">
+          <ng-container *ngIf="step == 1">
+            <input type="text" class="form-control" formControlName="fname"  placeholder="first name">
+          <input type="text" class="form-control" formControlName="lname" placeholder="last name">
+          <input type="email" class="form-control" formControlName="email"  placeholder="email">
+          <input type="number" class="form-control" formControlName="cnum" placeholder="contact number">
+          <input type="number" class="form-control" formControlName="cnic" placeholder="valid cnic">
+          <input type="text" class="form-control" formControlName="validadd" placeholder="valid address">
+          <input type="password" class="form-control" formControlName="password" placeholder="password">
+          <input type="cpassword" class="form-control" formControlName="cpassword" placeholder="confirm password">
+          </ng-container>
+          <ng-container *ngIf="step == 2">
+            <input type="text" class="form-control" formControlName="companylogo"  placeholder="company logo">
+            <input type="text" class="form-control" formControlName="companyname" placeholder="company name">
+            <input type="email" class="form-control" formControlName="companyemail"  placeholder="company email">
+            <input type="number" class="form-control" formControlName="contactnumber" placeholder="contact number">
+            <input type="number" class="form-control" formControlName="companyaddress" placeholder="company address">
+          </ng-container>
+        </form>
+        <button *ngIf="step == 1" (click)="openCompanyInfoTab()" class="add-com-info mb-5">Add Company Information</button>
+        <button *ngIf="step != 1" (click)="CreateOrginzation()" class="add-com-info mb-5">Create Now</button>
+      </div>
+      <div class="col-md-6 mt-5">
+        <img src="assets/home-image.png" alt="" class="img-fluid" />
+      </div>
+    </div>
+  </div>
+  
